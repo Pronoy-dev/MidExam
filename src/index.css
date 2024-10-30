@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+  ul,
+  li,
+  ol {
+    list-style: none;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  a,
+  img,
+  ul,
+  ol,
+  div {
+    margin: 0;
+    padding: 0;
+  }
+}
